@@ -1,0 +1,246 @@
+*{
+  box-sizing: border-box;
+  margin:0;
+  font-family: sans-serif;
+}
+
+header {
+  margin:0;
+  padding:  24px;
+  display:flex;
+  justify-content: space-between;
+  color:rgb(0, 0, 0);
+  font-size:1rem;
+  background-color: #636C79;
+   /* rgb(86, 106, 113); */
+}
+
+.logo {
+  width:104px;
+}
+nav {
+  justify-self: flex-end;
+  display:flex;
+  justify-content: flex-end;
+  align-items: center;
+  color:rgb(255, 255, 255);
+  column-gap: 24px; 
+  cursor:pointer;
+}
+.nav-item:first-child {
+  font-weight:bold;
+}
+.nav-item:hover{
+  color:rgb(94, 94, 95);
+}
+.register-button {
+  background: transparent; 
+  border-radius:8px;
+  padding: 12px 24px;
+  color:rgb(255, 255, 255);
+  cursor:pointer;
+  border : 2px solid white;
+}
+.hero-section {
+  /* background-color: rgb(86, 106, 113); */
+  background-color: #636C79;
+  display: flex;
+  padding:24px 24px 64px 24px;
+  column-gap: 32px;
+}
+.hero-section h1{
+  font-family: 'Raleway';
+  color:#fff;
+  font-size: 3rem;
+  align-self:flex-start;
+}
+.hero-description {
+  padding:0 24px;
+}
+.hero-description p {
+  line-height:1.5;
+  color:#fff;
+  font-size:1rem;
+  margin-top:32px;
+  width:90%;
+}
+
+.emailsection {
+  display: flex;
+  background-color:white;
+  justify-content: flex-end;
+  margin-top:24px;
+  width:90%;
+  border: 8px solid white;
+  position:relative;
+}
+.emailsection input{
+  flex-basis : 70%;
+  outline:none;
+  border:none;
+}
+.btnTalk {
+  background-color: #8BB7A2; 
+  /* rgb(27, 116, 116); */
+  color:white;
+  border:none;
+  outline:none;
+  padding : 12px 24px; 
+  justify-self: flex-end;
+}
+
+.email {
+  position:absolute;
+  top:20%;
+  left:1%;
+  width:24px;
+}
+.mid-section {
+  margin-top:24px;
+}
+
+.mid-section h1{
+  text-align: center;
+  font-family: 'Raleway';
+}
+
+.mid-section .mid-section-1 {
+  display:flex;
+  justify-content: center;
+  column-gap: 136px;
+  align-items: center;
+  margin: 24px 0;
+}
+
+.mid-section-1 div{
+  display:flex;
+  flex-direction: column;
+  row-gap:8px;
+}
+.mid-section-1 div span{
+  font-size: 1rem;
+  color:#7f7b7b;
+}
+.mid-image{
+  display: flex;
+  padding: 16px 36px;
+  justify-content: center;
+  align-items: center;
+}
+
+.mid-section-2 {
+  /* display:flex;
+  justify-content: center;
+  column-gap: 136px;
+  align-items: center; */
+  margin: 64px;
+}
+
+.mid-section-2 h1 {
+  font-family: "Raleway";
+  text-align: center;
+}
+
+.mid-section-2-1 {
+display:flex;
+column-gap: 8px;
+margin-top:42px;
+}
+
+.mid-section-2 h2 {
+  font-family: "Raleway";
+ margin-bottom:16px;
+ font-size:2rem;
+}
+.mid-section-2 p {
+  width:70%;
+  line-height: 1.5;
+  color:#7f7b7b;
+}
+.mid-section-2 button{
+margin-top: 36px;
+}
+
+.team-section {
+  margin:64px;
+  display: flex;
+  flex-direction: column;
+}
+.team-section-1{
+  display:flex;
+  justify-content: space-between;
+}
+.team-section-1 h1{
+  flex-basis: 60%;
+}
+
+.team-section-1 p{
+  line-height:1.5;
+  width:60%;
+  color:#7f7b7b;
+}
+
+.team-section-2{
+  display:flex;
+  margin-top:32px;
+}
+.team-section-2 img {
+  width:93%;
+}
+.team-section-2 .team-card {
+  display: flex;
+  flex-direction: column;
+  row-gap: 16px;
+}
+.team-card p {
+  width:90%;
+  line-height: 1.5;
+  color:#7f7b7b;
+}
+
+.team-section button {
+  margin-top:24px;
+  align-self: center;
+}
+
+.logo-section {
+  
+  display: flex;
+  padding:24px 66px 0 66px;
+  background-color: #10181D;
+  justify-content: space-between;
+  border-bottom: 1px solid #7f7b7b;
+}
+.footer-section {
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  padding:12px 36px;
+  background-color: #10181D;
+  color:#7f7b7b;
+  
+}
+.logo-section img {
+  width : 64px;
+  margin-bottom:16px;
+ 
+}
+.logo-section p {
+  font-size:1rem;
+  line-height:1.5;
+}
+.footer-section ul {
+  list-style-type:none;
+}
+.footer-section li:first-child {
+  margin-bottom:12px;
+  font-size:1rem;
+  font-weight: 700;
+  color:white;
+}
+.footer-section li {
+  margin-bottom:8px;
+  font-size:1rem;
+}
+.logo-section .social {
+  width:128px;
+  }
